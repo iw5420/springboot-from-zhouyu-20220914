@@ -1,11 +1,15 @@
 package org.springboot;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Import;
+
 import java.lang.annotation.*;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Inherited
+@ComponentScan
+@Import(WebServerAutoConfiguration.class)
 public @interface IanSpringBootApplication {
     //target那裏的表示這註解可以寫到類上面(限定)
     //  public enum ElementType {

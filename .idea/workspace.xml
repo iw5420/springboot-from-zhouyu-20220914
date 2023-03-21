@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e11454-8dfe-4116-bdd7-4304c0d8a81a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springboot_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/AutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/IanSpringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/IanSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/JettyWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/TomcatWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/WebServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/JettyCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/TomcatCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/WebServerAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/org/example/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/IanSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/org/springboot/IanSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/test/java/org/springboot/SpringbootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/example/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/example/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/org/example/user/UserApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +75,26 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyApplication">
+  <component name="RunManager" selected="Application.UserApplication">
     <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ian.user.MyApplication" />
       <module name="user" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ian.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.user.UserApplication" />
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApplication" />
         <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
@@ -137,7 +151,7 @@
       <updated>1679121589464</updated>
       <workItem from="1679121590800" duration="85000" />
       <workItem from="1679121708614" duration="24519000" />
-      <workItem from="1679223501199" duration="5120000" />
+      <workItem from="1679223501199" duration="12105000" />
     </task>
     <servers />
   </component>
@@ -154,5 +168,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot/src/main/java/org/springboot/IanSpringApplication.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,13 +1,16 @@
 package org.example.user;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springboot.IanSpringApplication;
+import org.springboot.IanSpringBootApplication;
+import org.springboot.WebServerAutoConfiguration;
+import org.springframework.context.annotation.Import;
 
-@SpringBootApplication
+
+@IanSpringBootApplication
 public class UserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
+        IanSpringApplication.run(UserApplication.class);
     }
 
 }
